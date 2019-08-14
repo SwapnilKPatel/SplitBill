@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3995719D22F587960030C9DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3995719C22F587960030C9DA /* AppDelegate.swift */; };
+		3995719F22F587960030C9DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3995719E22F587960030C9DA /* ViewController.swift */; };
+		399571A222F587960030C9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399571A022F587960030C9DA /* Main.storyboard */; };
+		399571A522F587960030C9DA /* SplitMyBill.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399571A322F587960030C9DA /* SplitMyBill.xcdatamodeld */; };
+		399571A722F587970030C9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399571A622F587970030C9DA /* Assets.xcassets */; };
+		399571AA22F587970030C9DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399571A822F587970030C9DA /* LaunchScreen.storyboard */; };
+		399571B322F5883B0030C9DA /* BillList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399571B122F5883B0030C9DA /* BillList.swift */; };
+		399571B422F5883B0030C9DA /* BillList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399571B222F5883B0030C9DA /* BillList.xib */; };
+		399571B622F5884F0030C9DA /* BillList+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399571B522F5884F0030C9DA /* BillList+TableView.swift */; };
+		399571BD22F589C40030C9DA /* BillListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399571BB22F589C40030C9DA /* BillListCell.swift */; };
+		399571BE22F589C40030C9DA /* BillListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399571BC22F589C40030C9DA /* BillListCell.xib */; };
+		399571C122F58D340030C9DA /* SplitBillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399571BF22F58D340030C9DA /* SplitBillVC.swift */; };
+		399571C222F58D340030C9DA /* SplitBillVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399571C022F58D340030C9DA /* SplitBillVC.xib */; };
+		399571C422F595740030C9DA /* Firends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399571C322F595740030C9DA /* Firends.swift */; };
+		39FEC49B22F6D79800401773 /* SplitBill+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FEC49A22F6D79800401773 /* SplitBill+TableView.swift */; };
+		39FEC49F22F6DC2C00401773 /* NameAndAmountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FEC49D22F6DC2C00401773 /* NameAndAmountCell.swift */; };
+		39FEC4A022F6DC2C00401773 /* NameAndAmountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39FEC49E22F6DC2C00401773 /* NameAndAmountCell.xib */; };
+		39FEC4A222F6E82800401773 /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FEC4A122F6E82800401773 /* FriendList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3995719922F587960030C9DA /* SplitMyBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitMyBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3995719C22F587960030C9DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3995719E22F587960030C9DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		399571A122F587960030C9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		399571A422F587960030C9DA /* SplitMyBill.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SplitMyBill.xcdatamodel; sourceTree = "<group>"; };
+		399571A622F587970030C9DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		399571A922F587970030C9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		399571AB22F587970030C9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399571B122F5883B0030C9DA /* BillList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillList.swift; sourceTree = "<group>"; };
+		399571B222F5883B0030C9DA /* BillList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillList.xib; sourceTree = "<group>"; };
+		399571B522F5884F0030C9DA /* BillList+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BillList+TableView.swift"; sourceTree = "<group>"; };
+		399571BB22F589C40030C9DA /* BillListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillListCell.swift; sourceTree = "<group>"; };
+		399571BC22F589C40030C9DA /* BillListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillListCell.xib; sourceTree = "<group>"; };
+		399571BF22F58D340030C9DA /* SplitBillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBillVC.swift; sourceTree = "<group>"; };
+		399571C022F58D340030C9DA /* SplitBillVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplitBillVC.xib; sourceTree = "<group>"; };
+		399571C322F595740030C9DA /* Firends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firends.swift; sourceTree = "<group>"; };
+		39FEC49A22F6D79800401773 /* SplitBill+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SplitBill+TableView.swift"; sourceTree = "<group>"; };
+		39FEC49D22F6DC2C00401773 /* NameAndAmountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndAmountCell.swift; sourceTree = "<group>"; };
+		39FEC49E22F6DC2C00401773 /* NameAndAmountCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameAndAmountCell.xib; sourceTree = "<group>"; };
+		39FEC4A122F6E82800401773 /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3995719622F587960030C9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3995719022F587960030C9DA = {
+			isa = PBXGroup;
+			children = (
+				3995719B22F587960030C9DA /* SplitMyBill */,
+				3995719A22F587960030C9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3995719A22F587960030C9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3995719922F587960030C9DA /* SplitMyBill.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3995719B22F587960030C9DA /* SplitMyBill */ = {
+			isa = PBXGroup;
+			children = (
+				3995719C22F587960030C9DA /* AppDelegate.swift */,
+				3995719E22F587960030C9DA /* ViewController.swift */,
+				399571B222F5883B0030C9DA /* BillList.xib */,
+				399571B122F5883B0030C9DA /* BillList.swift */,
+				399571B522F5884F0030C9DA /* BillList+TableView.swift */,
+				399571BB22F589C40030C9DA /* BillListCell.swift */,
+				399571BC22F589C40030C9DA /* BillListCell.xib */,
+				39FEC49A22F6D79800401773 /* SplitBill+TableView.swift */,
+				399571BF22F58D340030C9DA /* SplitBillVC.swift */,
+				399571C022F58D340030C9DA /* SplitBillVC.xib */,
+				39FEC49D22F6DC2C00401773 /* NameAndAmountCell.swift */,
+				39FEC49E22F6DC2C00401773 /* NameAndAmountCell.xib */,
+				399571A022F587960030C9DA /* Main.storyboard */,
+				399571A622F587970030C9DA /* Assets.xcassets */,
+				399571A822F587970030C9DA /* LaunchScreen.storyboard */,
+				399571AB22F587970030C9DA /* Info.plist */,
+				399571A322F587960030C9DA /* SplitMyBill.xcdatamodeld */,
+				39FEC4A122F6E82800401773 /* FriendList.swift */,
+				399571C322F595740030C9DA /* Firends.swift */,
+			);
+			path = SplitMyBill;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3995719822F587960030C9DA /* SplitMyBill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399571AE22F587970030C9DA /* Build configuration list for PBXNativeTarget "SplitMyBill" */;
+			buildPhases = (
+				3995719522F587960030C9DA /* Sources */,
+				3995719622F587960030C9DA /* Frameworks */,
+				3995719722F587960030C9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitMyBill;
+			productName = SplitMyBill;
+			productReference = 3995719922F587960030C9DA /* SplitMyBill.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3995719122F587960030C9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Swapnil Patel";
+				TargetAttributes = {
+					3995719822F587960030C9DA = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 3995719422F587960030C9DA /* Build configuration list for PBXProject "SplitMyBill" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3995719022F587960030C9DA;
+			productRefGroup = 3995719A22F587960030C9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3995719822F587960030C9DA /* SplitMyBill */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3995719722F587960030C9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399571B422F5883B0030C9DA /* BillList.xib in Resources */,
+				399571AA22F587970030C9DA /* LaunchScreen.storyboard in Resources */,
+				399571A722F587970030C9DA /* Assets.xcassets in Resources */,
+				399571BE22F589C40030C9DA /* BillListCell.xib in Resources */,
+				39FEC4A022F6DC2C00401773 /* NameAndAmountCell.xib in Resources */,
+				399571C222F58D340030C9DA /* SplitBillVC.xib in Resources */,
+				399571A222F587960030C9DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3995719522F587960030C9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FEC4A222F6E82800401773 /* FriendList.swift in Sources */,
+				399571BD22F589C40030C9DA /* BillListCell.swift in Sources */,
+				399571B322F5883B0030C9DA /* BillList.swift in Sources */,
+				399571A522F587960030C9DA /* SplitMyBill.xcdatamodeld in Sources */,
+				399571C122F58D340030C9DA /* SplitBillVC.swift in Sources */,
+				399571C422F595740030C9DA /* Firends.swift in Sources */,
+				3995719F22F587960030C9DA /* ViewController.swift in Sources */,
+				39FEC49B22F6D79800401773 /* SplitBill+TableView.swift in Sources */,
+				3995719D22F587960030C9DA /* AppDelegate.swift in Sources */,
+				39FEC49F22F6DC2C00401773 /* NameAndAmountCell.swift in Sources */,
+				399571B622F5884F0030C9DA /* BillList+TableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		399571A022F587960030C9DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				399571A122F587960030C9DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		399571A822F587970030C9DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				399571A922F587970030C9DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		399571AC22F587970030C9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		399571AD22F587970030C9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		399571AF22F587970030C9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SplitMyBill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SplitMyBill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		399571B022F587970030C9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SplitMyBill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SplitMyBill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3995719422F587960030C9DA /* Build configuration list for PBXProject "SplitMyBill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399571AC22F587970030C9DA /* Debug */,
+				399571AD22F587970030C9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399571AE22F587970030C9DA /* Build configuration list for PBXNativeTarget "SplitMyBill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399571AF22F587970030C9DA /* Debug */,
+				399571B022F587970030C9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		399571A322F587960030C9DA /* SplitMyBill.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				399571A422F587960030C9DA /* SplitMyBill.xcdatamodel */,
+			);
+			currentVersion = 399571A422F587960030C9DA /* SplitMyBill.xcdatamodel */;
+			path = SplitMyBill.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3995719122F587960030C9DA /* Project object */;
+}
